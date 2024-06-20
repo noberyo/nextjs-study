@@ -1,10 +1,16 @@
+import Link from "next/link";
 import Button from "./components/button/button";
+import SourceLink from "@/app/components/sourcelink/sourcelink";
 
 export default function ButtonPage() {
   return (
     <>
       <h1 className="mb-8 text-3xl text-slate-400 font-bold">Button</h1>
       <div className="max-w-4xl mx-auto">
+        <div className="mb-8">
+          <SourceLink url="https://github.com/noberyo/nextjs-study/tree/main/src/app/(samples)/button_page"></SourceLink>
+        </div>
+
         <div className="mb-8 flex gap-4">
           <h2 className="w-24">size: (default)</h2>
           <Button>Button</Button>
@@ -13,6 +19,7 @@ export default function ButtonPage() {
           <Button variant="danger">DELETE</Button>
           <Button className="bg-orange-600 hover:bg-orange-400">Button</Button>
         </div>
+
         <div className="mb-8 flex gap-4">
           <h2 className="w-24">size: xs</h2>
           <Button size="xs">Button</Button>
@@ -29,6 +36,7 @@ export default function ButtonPage() {
             Button
           </Button>
         </div>
+
         <div className="mb-8 flex gap-4">
           <h2 className="w-24">size: sm</h2>
           <Button size="sm">Button</Button>
@@ -45,6 +53,7 @@ export default function ButtonPage() {
             Button
           </Button>
         </div>
+
         <div className="mb-8 flex gap-4">
           <h2 className="w-24">size: md</h2>
           <Button size="md">Button</Button>
@@ -78,6 +87,7 @@ export default function ButtonPage() {
             Button
           </Button>
         </div>
+
         <div className="mb-8 flex gap-4">
           <h2 className="w-24">size: xl</h2>
           <Button size="xl">Button</Button>
@@ -94,6 +104,7 @@ export default function ButtonPage() {
             Button
           </Button>
         </div>
+
         <div className="mb-8 flex gap-4">
           <h2 className="w-24">variant: outline</h2>
           <Button variant="outline">OUTLINE</Button>
