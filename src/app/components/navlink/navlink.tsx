@@ -10,7 +10,7 @@ export default function NavLink({
 }) {
   return (
     <Link
-      className="px-4 py-2 border border-slate-800 rounded-lg hover:border-slate-500 hover:bg-slate-800 duration-150"
+      className="px-4 py-2 border border-slate-700 bg-slate-900 text-slate-400 rounded-lg hover:border-slate-500 hover:bg-slate-800 duration-150"
       href={href}
     >
       {children}

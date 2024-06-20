@@ -1,4 +1,5 @@
 import NavLink from "./components/navlink/navlink";
+import SourceLink from "./components/sourcelink/sourcelink";
 
 export default function Home() {
   return (
@@ -7,7 +8,11 @@ export default function Home() {
         <div className="text-slate-300 font-bold text-xl">NBR STUDY NEXTJS</div>
       </header>
 
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <main className="py-8 px-24">
+        <div className="mb-8">
+          <SourceLink url="https://github.com/noberyo/nextjs-study/"></SourceLink>
+        </div>
+        <h2 className="mb-8 text-4xl font-bold text-slate-400">SAMPLES</h2>
         <div className="flex gap-2">
           <NavLink href="/image_tag">Image Tag</NavLink>
           <NavLink href="/button_page">Button</NavLink>

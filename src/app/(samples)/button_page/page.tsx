@@ -4,7 +4,7 @@ import SourceLink from "@/app/components/sourcelink/sourcelink";
 export default function ButtonPage() {
   return (
     <>
-      <h1 className="mb-8 text-3xl text-slate-400 font-bold">Button</h1>
+      <h1 className="mb-8 text-4xl text-slate-400 font-bold">Button</h1>
       <div className="max-w-4xl mx-auto">
         <div className="mb-8">
           <SourceLink url="https://github.com/noberyo/nextjs-study/tree/main/src/app/(samples)/button_page"></SourceLink>
