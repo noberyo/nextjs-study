@@ -6,10 +6,16 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 const buttonVariant = {
-  default: "bg-slate-600 text-white-300 rounded-md hover:bg-slate-400",
-  primary: "bg-green-600 text-white-300 rounded-md hover:bg-green-400",
-  secondary: "bg-blue-600 text-white-300 rounded-md hover:bg-blue-400",
-  danger: "bg-red-600 text-white-300 rounded-md hover:bg-red-400",
+  default: "bg-slate-600 text-white-300 hover:bg-slate-400",
+  primary: "bg-green-600 text-white-300 hover:bg-green-400",
+  secondary: "bg-blue-600 text-white-300 hover:bg-blue-400",
+  danger: "bg-red-600 text-white-300 hover:bg-red-400",
+  outline: "border border-slate-600 text-slate-400 hover:border-slate-400",
+  outline_primary:
+    "border border-green-600 text-green-600 hover:border-green-400",
+  outline_secondary:
+    "border border-blue-600 text-blue-600 hover:border-blue-400",
+  outline_danger: "border border-red-600 text-red-600 hover:border-red-400",
 } as const; // ネストしたものもすべてをreadonlyにする
 
 const buttonSize = {
@@ -29,7 +35,7 @@ export default function Button({
 }: ButtonProps) {
   return (
     <button
-      className={`duration-150 ${buttonVariant[variant]} ${buttonSize[size]} ${className}`}
+      className={`duration-200 rounded-lg ${buttonVariant[variant]} ${buttonSize[size]} ${className}`}
       {...props}
     >
       {children}
