@@ -10,7 +10,7 @@ export default function Home() {
       <main className="flex min-h-screen flex-col items-center justify-between p-24">
         <div className="flex gap-2">
           <NavLink href="/image_tag">Image Tag</NavLink>
-          <NavLink href="/image_tag">Image Tag</NavLink>
+          <NavLink href="/button_page">Button</NavLink>
         </div>
       </main>
     </>
