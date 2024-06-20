@@ -1,3 +1,4 @@
+import Image from "next/image";
 import HeroImage from "./components/hero_image/hero_image";
 import SourceLink from "@/app/components/sourcelink/sourcelink";
 
@@ -10,7 +11,18 @@ export default function ImageTag() {
           <SourceLink url="https://github.com/noberyo/nextjs-study/tree/main/src/app/(samples)/image_tag"></SourceLink>
         </div>
 
-        <HeroImage />
+        <div className="mb-4">
+          <HeroImage />
+        </div>
+
+        <div className="mb-4">
+          <div className="mb-4 relative aspect-[1/1] max-w-xs">
+            <Image className="object-cover" fill src="/bg.jpg" alt="" />
+          </div>
+          <div className="mb-4 relative aspect-[1/1] max-w-xs bg-slate-800">
+            <Image className="object-contain" fill src="/bg.jpg" alt="" />
+          </div>
+        </div>
       </div>
     </>
   );
