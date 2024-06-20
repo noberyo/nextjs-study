@@ -1,3 +1,4 @@
+import Reflink from "@/app/components/reflink/reflink";
 import Button from "./components/button/button";
 import SourceLink from "@/app/components/sourcelink/sourcelink";
 
@@ -5,7 +6,7 @@ export default function ButtonPage() {
   return (
     <>
       <h1 className="mb-8 text-4xl text-slate-400 font-bold">Button</h1>
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-4xl mx-auto pb-24">
         <div className="mb-8">
           <SourceLink url="https://github.com/noberyo/nextjs-study/tree/main/src/app/(samples)/button_page"></SourceLink>
         </div>
@@ -104,7 +105,7 @@ export default function ButtonPage() {
           </Button>
         </div>
 
-        <div className="mb-8 flex gap-4">
+        <div className="mb-20 flex gap-4">
           <h2 className="w-24">variant: outline</h2>
           <Button variant="outline">OUTLINE</Button>
           <Button variant="outline_primary">PRIMARY</Button>
@@ -116,6 +117,11 @@ export default function ButtonPage() {
           >
             Button
           </Button>
+        </div>
+
+        <h3 className="mb-4 text-3xl text-slate-400 font-bold">REFERENCES</h3>
+        <div className="flex flex-col gap-2">
+          <Reflink url="https://qiita.com/toki_dev/items/de537515bca92ad7a892"></Reflink>
         </div>
       </div>
     </>
