@@ -1,5 +1,3 @@
-import React from "react";
-import { LayoutProps } from "../../../.next/types/app/layout";
 import Link from "next/link";
 
 export default function Layout({
