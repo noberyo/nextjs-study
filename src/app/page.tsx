@@ -13,9 +13,10 @@ export default function Home() {
           <SourceLink url="https://github.com/noberyo/nextjs-study/"></SourceLink>
         </div>
         <h2 className="mb-8 text-4xl font-bold text-slate-400">SAMPLES</h2>
-        <div className="flex gap-2">
+        <div className="mb-20 flex gap-2">
           <NavLink href="/image_tag">Image Tag</NavLink>
           <NavLink href="/button_page">Button</NavLink>
+          <NavLink href="/link_page">Link</NavLink>
         </div>
       </main>
     </>

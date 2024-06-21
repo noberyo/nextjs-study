@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Reflink({ url }: { url: string }) {
+export default function RefLink({ url }: { url: string }) {
   return (
     <div className="px-4 py-2 bg-slate-900 rounded-xl flex gap-4 items-center">
       <h4 className="text-sm text-slate-500">Ref link</h4>

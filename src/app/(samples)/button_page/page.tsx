@@ -1,4 +1,4 @@
-import Reflink from "@/app/components/reflink/reflink";
+import RefLink from "@/app/components/reflink/reflink";
 import Button from "./components/button/button";
 import SourceLink from "@/app/components/sourcelink/sourcelink";
 
@@ -121,7 +121,7 @@ export default function ButtonPage() {
 
         <h3 className="mb-4 text-3xl text-slate-400 font-bold">REFERENCES</h3>
         <div className="flex flex-col gap-2">
-          <Reflink url="https://qiita.com/toki_dev/items/de537515bca92ad7a892"></Reflink>
+          <RefLink url="https://qiita.com/toki_dev/items/de537515bca92ad7a892"></RefLink>
         </div>
       </div>
     </>
