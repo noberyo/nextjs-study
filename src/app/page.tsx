@@ -4,10 +4,6 @@ import SourceLink from "../components/elements/sourcelink/sourcelink";
 export default function Home() {
   return (
     <>
-      <header className="px-4 py-4 border-b border-slate-900">
-        <div className="text-slate-300 font-bold text-xl">NBR STUDY NEXTJS</div>
-      </header>
-
       <main className="py-8 px-24">
         <div className="mb-8">
           <SourceLink url="https://github.com/noberyo/nextjs-study/"></SourceLink>
