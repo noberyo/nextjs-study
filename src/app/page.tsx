@@ -1,5 +1,5 @@
-import NavLink from "./components/navlink/navlink";
-import SourceLink from "./components/sourcelink/sourcelink";
+import NavLink from "../components/elements/navlink/navlink";
+import SourceLink from "../components/elements/sourcelink/sourcelink";
 
 export default function Home() {
   return (
@@ -14,10 +14,10 @@ export default function Home() {
         </div>
         <h2 className="mb-8 text-4xl font-bold text-slate-400">SAMPLES</h2>
         <div className="mb-20 flex gap-2">
-          <NavLink href="/image_tag">Image Tag</NavLink>
-          <NavLink href="/button_page">Button</NavLink>
-          <NavLink href="/link_page">Link</NavLink>
-          <NavLink href="/tw_technics">Tailwind Technics</NavLink>
+          <NavLink href="/image-sample">Image Tag</NavLink>
+          <NavLink href="/button-sample">Button</NavLink>
+          <NavLink href="/link-sample">Link</NavLink>
+          <NavLink href="/tw-technics">Tailwind Technics</NavLink>
         </div>
       </main>
     </>

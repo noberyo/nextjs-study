@@ -1,7 +1,7 @@
 "use client";
 
-import RefLink from "@/app/components/reflink/reflink";
-import SourceLink from "@/app/components/sourcelink/sourcelink";
+import RefLink from "@/components/elements/reflink/reflink";
+import SourceLink from "@/components/elements/sourcelink/sourcelink";
 import Link from "next/link";
 
 export default function TwTechnics() {
@@ -17,7 +17,7 @@ export default function TwTechnics() {
       </h1>
       <div className="max-w-4xl mx-auto">
         <div className="mb-8">
-          <SourceLink url="https://github.com/noberyo/nextjs-study/tree/main/src/app/(samples)/tw_technics/page.tsx"></SourceLink>
+          <SourceLink url="https://github.com/noberyo/nextjs-study/tree/main/src/app/(samples)/tw-technics/page.tsx"></SourceLink>
         </div>
 
         <div className="mb-20 flex flex-col gap-40">

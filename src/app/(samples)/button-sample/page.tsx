@@ -1,14 +1,14 @@
-import RefLink from "@/app/components/reflink/reflink";
+import RefLink from "@/components/elements/reflink/reflink";
 import Button from "./components/button/button";
-import SourceLink from "@/app/components/sourcelink/sourcelink";
+import SourceLink from "@/components/elements/sourcelink/sourcelink";
 
-export default function ButtonPage() {
+export default function Page() {
   return (
     <>
       <h1 className="mb-8 text-4xl text-slate-400 font-bold">Button</h1>
       <div className="max-w-4xl mx-auto pb-24">
         <div className="mb-8">
-          <SourceLink url="https://github.com/noberyo/nextjs-study/tree/main/src/app/(samples)/button_page"></SourceLink>
+          <SourceLink url="https://github.com/noberyo/nextjs-study/tree/main/src/app/(samples)/button-sample"></SourceLink>
         </div>
 
         <div className="mb-8 flex gap-4">
