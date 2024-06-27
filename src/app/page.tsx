@@ -17,6 +17,7 @@ export default function Home() {
           <NavLink href="/image_tag">Image Tag</NavLink>
           <NavLink href="/button_page">Button</NavLink>
           <NavLink href="/link_page">Link</NavLink>
+          <NavLink href="/tw_technics">Tailwind Technics</NavLink>
         </div>
       </main>
     </>
