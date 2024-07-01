@@ -12,6 +12,7 @@ export default function SideNavi() {
     { id: "link", label: "next/Link", path: "/link-sample" },
     { id: "button", label: "Button", path: "/button-sample" },
     { id: "tailwind", label: "Tailwind Technics", path: "/tw-technics" },
+    { id: "date_fns", label: "date-fns", path: "/date-fns" },
   ];
 
   return (
