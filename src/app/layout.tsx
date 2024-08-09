@@ -18,10 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} h-[calc(100dvh)]`}>
         <Header />
         <div className="flex">
-          <div className="lg:w-80 p-4 h-screen border-r border-slate-900">
+          <div className="lg:w-80 p-4 border-r border-slate-900">
             <SideNavi />
           </div>
           <div className="">{children}</div>
